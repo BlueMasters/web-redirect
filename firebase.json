@@ -1,0 +1,22 @@
+{
+  "hosting": {
+    "public": "public",
+    "redirects": [ {
+      "source" : "/s4k",
+      "destination" : "https://bluemasters.github.io/scratch-for-kids/",
+      "type" : 302
+    }, {
+      "source" : "/s4k/**",
+      "destination" : "https://bluemasters.github.io/scratch-for-kids/",
+      "type" : 302
+    }, {
+      "source" : "/",
+      "destination" : "https://github.com/orgs/BlueMasters",
+      "type" : 302
+    }, {
+      "source" : "/**",
+      "destination" : "https://github.com/orgs/BlueMasters",
+      "type" : 302
+    } ]
+  }
+}
